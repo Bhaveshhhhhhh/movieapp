@@ -1,0 +1,36 @@
+.summary{
+        padding: 1.4rem;
+            margin: 1rem auto;
+            width: 40vw;
+            background-color: rgb(142, 142, 142);
+            border-radius: 20px;
+
+            > h3 , p {
+                text-align: center;
+                margin: 1rem;
+            }
+}
+
+
+button {
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    cursor: pointer;
+
+    &:hover {
+        background-color: black;
+        color: white;
+    }
+
+}
+
+
+@media screen and (max-width : 600px) {
+    .summary {
+        width: 90%;
+    }
+}
